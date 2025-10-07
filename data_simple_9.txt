@@ -1,0 +1,70 @@
+Discarded solution information
+Set parameter TimeLimit to value 900
+Set parameter Presolve to value 1
+Gurobi Optimizer version 12.0.3 build v12.0.3rc0 (linux64 - "Ubuntu 22.04.4 LTS")
+
+CPU model: Intel(R) Xeon(R) CPU @ 2.20GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 1 physical cores, 2 logical processors, using up to 2 threads
+
+Non-default parameters:
+TimeLimit  900
+Presolve  1
+
+Optimize a model with 86 rows, 56 columns and 240 nonzeros
+Model fingerprint: 0xb2474ecf
+Variable types: 0 continuous, 56 integer (50 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 4e+01]
+Found heuristic solution: objective 2.0000000
+Presolve removed 70 rows and 36 columns
+Presolve time: 0.00s
+Presolved: 16 rows, 20 columns, 68 nonzeros
+Variable types: 0 continuous, 20 integer (17 binary)
+
+Root relaxation: objective 5.000000e+00, 11 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    5.00000    0    6    2.00000    5.00000   150%     -    0s
+H    0     0                       5.0000000    5.00000  0.00%     -    0s
+     0     0    5.00000    0    6    5.00000    5.00000  0.00%     -    0s
+
+Explored 1 nodes (11 simplex iterations) in 0.02 seconds (0.00 work units)
+Thread count was 2 (of 2 available processors)
+
+Solution count 2: 5 2 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 5.000000000000e+00, best bound 5.000000000000e+00, gap 0.0000%
+Objective value =  5.0
+vik[1,1]: 1
+vik[1,2]: 1
+vik[2,1]: 1
+vik[2,2]: 1
+vik[3,2]: 1
+wik[1,1]: 1
+wik[1,2]: 1
+wik[2,1]: 1
+wik[2,2]: 1
+wik[3,1]: 1
+wik[3,2]: 1
+xijk[0,1,1]: 1
+xijk[0,2,2]: 1
+xijk[1,0,2]: 1
+xijk[1,3,1]: 1
+xijk[2,0,1]: 1
+xijk[2,3,2]: 1
+xijk[3,1,2]: 1
+xijk[3,2,1]: 1
+ypk[1,1]: 1
+ypk[2,1]: 1
+zik[1,2]: 2
+zik[2,1]: 2
+zik[3,1]: 1
+zik[3,2]: 1
+Computational time (CPU time) =  0.04463839530944824 seconds
+-----------------------------------------------------

@@ -1,0 +1,111 @@
+Discarded solution information
+Set parameter TimeLimit to value 900
+Set parameter Presolve to value 1
+Gurobi Optimizer version 12.0.3 build v12.0.3rc0 (linux64 - "Ubuntu 22.04.4 LTS")
+
+CPU model: Intel(R) Xeon(R) CPU @ 2.20GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 1 physical cores, 2 logical processors, using up to 2 threads
+
+Non-default parameters:
+TimeLimit  900
+Presolve  1
+
+Optimize a model with 366 rows, 232 columns and 1208 nonzeros
+Model fingerprint: 0x76c6531f
+Variable types: 0 continuous, 232 integer (212 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 3e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 4e+01]
+Presolve removed 149 rows and 53 columns
+Presolve time: 0.02s
+Presolved: 217 rows, 179 columns, 935 nonzeros
+Variable types: 0 continuous, 179 integer (159 binary)
+
+Root relaxation: objective 8.000000e+00, 52 iterations, 0.01 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    8.00000    0   14          -    8.00000      -     -    0s
+     0     0    8.00000    0   46          -    8.00000      -     -    0s
+     0     0    8.00000    0   43          -    8.00000      -     -    0s
+     0     0    8.00000    0   52          -    8.00000      -     -    0s
+     0     0    8.00000    0   46          -    8.00000      -     -    0s
+     0     0    8.00000    0   33          -    8.00000      -     -    0s
+     0     2    8.00000    0   33          -    8.00000      -     -    0s
+*   80    26              19       5.0000000    7.57895  51.6%  11.5    0s
+
+Cutting planes:
+  Learned: 5
+  Cover: 29
+  Implied bound: 21
+  Dual implied bound: 1
+  Clique: 3
+  MIR: 5
+  StrongCG: 1
+  GUB cover: 1
+  Inf proof: 4
+  Zero half: 1
+  RLT: 4
+  Relax-and-lift: 3
+  BQP: 1
+  PSD: 2
+
+Explored 116 nodes (2401 simplex iterations) in 0.40 seconds (0.06 work units)
+Thread count was 2 (of 2 available processors)
+
+Solution count 1: 5 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 5.000000000000e+00, best bound 5.000000000000e+00, gap 0.0000%
+Objective value =  5.0
+vik[2,4]: 1
+vik[3,1]: 1
+vik[3,2]: 1
+vik[4,3]: 1
+vik[5,3]: 1
+wik[1,2]: 1
+wik[1,4]: 1
+wik[2,1]: 1
+wik[2,4]: 1
+wik[3,1]: 1
+wik[3,2]: 1
+wik[4,1]: 1
+wik[4,3]: 1
+wik[5,2]: 1
+wik[5,3]: 1
+xijk[0,1,4]: 1
+xijk[0,4,1]: 1
+xijk[0,4,3]: 1
+xijk[0,5,2]: 1
+xijk[1,2,4]: 1
+xijk[1,3,2]: 1
+xijk[2,0,4]: 1
+xijk[2,3,1]: 1
+xijk[3,0,1]: 1
+xijk[3,0,2]: 1
+xijk[4,2,1]: 1
+xijk[4,5,3]: 1
+xijk[5,0,3]: 1
+xijk[5,1,2]: 1
+ypk[1,4]: 1
+ypk[2,2]: 1
+ypk[3,2]: 1
+ypk[4,1]: 1
+ypk[5,1]: 1
+ypk[6,3]: 1
+zik[1,1]: 4
+zik[1,2]: 3
+zik[2,1]: 1
+zik[2,2]: 4
+zik[2,4]: 1
+zik[3,1]: 4
+zik[3,2]: 4
+zik[4,2]: 4
+zik[5,1]: 4
+zik[5,2]: 2
+zik[5,3]: 1
+Computational time (CPU time) =  0.42305803298950195 seconds
+-----------------------------------------------------

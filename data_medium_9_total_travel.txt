@@ -1,0 +1,99 @@
+Discarded solution information
+Set parameter TimeLimit to value 900
+Set parameter Presolve to value 1
+Gurobi Optimizer version 12.0.3 build v12.0.3rc0 (linux64 - "Ubuntu 22.04.4 LTS")
+
+CPU model: Intel(R) Xeon(R) CPU @ 2.20GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 1 physical cores, 2 logical processors, using up to 2 threads
+
+Non-default parameters:
+TimeLimit  900
+Presolve  1
+
+Optimize a model with 196 rows, 126 columns and 606 nonzeros
+Model fingerprint: 0xdd1cf3c1
+Variable types: 0 continuous, 126 integer (114 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 4e+01]
+Presolve removed 83 rows and 28 columns
+Presolve time: 0.01s
+Presolved: 113 rows, 98 columns, 460 nonzeros
+Variable types: 0 continuous, 98 integer (86 binary)
+
+Root relaxation: objective 6.000000e+00, 51 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    6.00000    0    2          -    6.00000      -     -    0s
+     0     0    6.00000    0   13          -    6.00000      -     -    0s
+     0     0    6.00000    0   30          -    6.00000      -     -    0s
+     0     0    6.00000    0   29          -    6.00000      -     -    0s
+     0     0    6.00000    0   29          -    6.00000      -     -    0s
+     0     0    6.00000    0   29          -    6.00000      -     -    0s
+H    0     0                       4.0000000    6.00000  50.0%     -    0s
+     0     2    6.00000    0   20    4.00000    6.00000  50.0%     -    0s
+
+Cutting planes:
+  Learned: 4
+  Cover: 11
+  Implied bound: 10
+  MIR: 3
+  StrongCG: 1
+  Inf proof: 1
+  RLT: 3
+  Relax-and-lift: 1
+
+Explored 35 nodes (701 simplex iterations) in 0.11 seconds (0.02 work units)
+Thread count was 2 (of 2 available processors)
+
+Solution count 1: 4 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 4.000000000000e+00, best bound 4.000000000000e+00, gap 0.0000%
+Objective value =  4.0
+vik[2,2]: 1
+vik[3,2]: 1
+vik[4,1]: 1
+vik[4,3]: 1
+wik[1,2]: 1
+wik[1,3]: 1
+wik[2,1]: 1
+wik[2,2]: 1
+wik[3,2]: 1
+wik[4,1]: 1
+wik[4,3]: 1
+
+xijk[0,4,1]: 1
+xijk[4,2,1]: 1
+xijk[2,0,1]: 1
+
+xijk[0,3,2]: 1
+xijk[3,2,2]: 1
+xijk[2,1,2]: 1
+xijk[1,0,2]: 1
+
+xijk[0,4,3]: 1
+xijk[4,1,3]: 1
+xijk[1,0,3]: 1
+
+total travel times = (5+14+12), (12+7+7+9), (5+13+9) = 31, 35, 27
+
+ypk[1,3]: 1
+ypk[2,2]: 1
+ypk[3,2]: 1
+ypk[4,1]: 1
+zik[1,2]: 3
+zik[1,3]: 2
+zik[2,1]: 1
+zik[2,2]: 2
+zik[2,3]: 2
+zik[3,1]: 2
+zik[3,2]: 1
+zik[3,3]: 3
+zik[4,3]: 1
+Computational time (CPU time) =  0.1287376880645752 seconds
+-----------------------------------------------------

@@ -1,0 +1,96 @@
+Discarded solution information
+Set parameter TimeLimit to value 900
+Set parameter Presolve to value 1
+Gurobi Optimizer version 12.0.3 build v12.0.3rc0 (linux64 - "Ubuntu 22.04.4 LTS")
+
+CPU model: Intel(R) Xeon(R) CPU @ 2.20GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 1 physical cores, 2 logical processors, using up to 2 threads
+
+Non-default parameters:
+TimeLimit  900
+Presolve  1
+
+Optimize a model with 196 rows, 126 columns and 606 nonzeros
+Model fingerprint: 0x6111321e
+Variable types: 0 continuous, 126 integer (114 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 3e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+01]
+Presolve removed 170 rows and 99 columns
+Presolve time: 0.01s
+Presolved: 26 rows, 27 columns, 121 nonzeros
+Variable types: 0 continuous, 27 integer (23 binary)
+Found heuristic solution: objective 4.0000000
+Found heuristic solution: objective 5.0000000
+
+Root relaxation: objective 6.000000e+00, 15 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    6.00000    0    8    5.00000    6.00000  20.0%     -    0s
+     0     0 infeasible    0         5.00000    5.00000  0.00%     -    0s
+
+Cutting planes:
+  Learned: 1
+  Cover: 1
+  Implied bound: 2
+  MIR: 4
+  StrongCG: 1
+  Zero half: 2
+  PSD: 1
+
+Explored 1 nodes (45 simplex iterations) in 0.04 seconds (0.00 work units)
+Thread count was 2 (of 2 available processors)
+
+Solution count 2: 5 4 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 5.000000000000e+00, best bound 5.000000000000e+00, gap 0.0000%
+Objective value =  5.0
+vik[1,1]: 1
+vik[2,1]: 1
+vik[2,2]: 1
+vik[3,3]: 1
+vik[4,3]: 1
+wik[1,1]: 1
+wik[1,2]: 1
+wik[2,1]: 1
+wik[2,2]: 1
+wik[3,2]: 1
+wik[3,3]: 1
+wik[4,1]: 1
+wik[4,3]: 1
+
+xijk[0,2,1]: 1
+xijk[2,1,1]: 1
+xijk[1,4,1]: 1
+xijk[4,0,1]: 1
+
+xijk[0,3,2]: 1
+xijk[3,1,2]: 1
+xijk[1,2,2]: 1
+xijk[2,0,2]: 1
+
+xijk[0,3,3]: 1
+xijk[3,4,3]: 1
+xijk[4,0,3]: 1
+
+total travel times = (8+5+13+6), (6+11+5+8), (6+6+6) = 32, 30, 18
+
+ypk[1,2]: 1
+ypk[2,2]: 1
+ypk[3,1]: 1
+ypk[4,3]: 1
+zik[1,1]: 1
+zik[1,2]: 2
+zik[2,2]: 3
+zik[3,1]: 3
+zik[3,2]: 1
+zik[4,1]: 3
+zik[4,2]: 3
+zik[4,3]: 3
+Computational time (CPU time) =  0.04882049560546875 seconds
+-----------------------------------------------------

@@ -1,0 +1,56 @@
+Discarded solution information
+Set parameter TimeLimit to value 900
+Set parameter Presolve to value 1
+Gurobi Optimizer version 12.0.1 build v12.0.1rc0 (linux64 - "Ubuntu 22.04.4 LTS")
+
+CPU model: Intel(R) Xeon(R) CPU @ 2.20GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 1 physical cores, 2 logical processors, using up to 2 threads
+
+Non-default parameters:
+TimeLimit  900
+Presolve  1
+
+Optimize a model with 86 rows, 56 columns and 238 nonzeros
+Model fingerprint: 0x1a9022f7
+Variable types: 0 continuous, 56 integer (50 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+01]
+Found heuristic solution: objective 3.0000000
+Presolve removed 86 rows and 56 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.02 seconds (0.00 work units)
+Thread count was 1 (of 2 available processors)
+
+Solution count 1: 3 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.000000000000e+00, best bound 3.000000000000e+00, gap 0.0000%
+Objective value =  3.0
+vik[2,2]: 1
+vik[3,1]: 1
+vik[3,2]: 1
+wik[2,1]: 1
+wik[2,2]: 1
+wik[3,1]: 1
+wik[3,2]: 1
+
+xijk[0,3,1]: 1
+xijk[3,2,1]: 1
+xijk[2,0,1]: 1
+
+xijk[0,3,2]: 1
+xijk[3,2,2]: 1
+xijk[2,0,2]: 1
+
+ypk[1,2]: 1
+ypk[2,1]: 1
+zik[2,1]: 2
+zik[2,2]: 2
+zik[3,2]: 1
+Computational time (CPU time) =  0.03789806365966797 seconds
+-----------------------------------------------------

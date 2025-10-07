@@ -1,0 +1,111 @@
+Discarded solution information
+Set parameter TimeLimit to value 900
+Set parameter Presolve to value 1
+Gurobi Optimizer version 12.0.3 build v12.0.3rc0 (linux64 - "Ubuntu 22.04.4 LTS")
+
+CPU model: Intel(R) Xeon(R) CPU @ 2.20GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 1 physical cores, 2 logical processors, using up to 2 threads
+
+Non-default parameters:
+TimeLimit  900
+Presolve  1
+
+Optimize a model with 366 rows, 232 columns and 1208 nonzeros
+Model fingerprint: 0x1f6b7d15
+Variable types: 0 continuous, 232 integer (212 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 3e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 4e+01]
+Presolve removed 145 rows and 48 columns
+Presolve time: 0.01s
+Presolved: 221 rows, 184 columns, 939 nonzeros
+Variable types: 0 continuous, 184 integer (164 binary)
+
+Root relaxation: objective 8.000000e+00, 66 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    8.00000    0    6          -    8.00000      -     -    0s
+H    0     0                       7.0000000    8.00000  14.3%     -    0s
+     0     0    8.00000    0   15    7.00000    8.00000  14.3%     -    0s
+     0     0    8.00000    0   22    7.00000    8.00000  14.3%     -    0s
+     0     0    8.00000    0   22    7.00000    8.00000  14.3%     -    0s
+     0     0    8.00000    0   22    7.00000    8.00000  14.3%     -    0s
+     0     0    8.00000    0   48    7.00000    8.00000  14.3%     -    0s
+     0     0    8.00000    0   12    7.00000    8.00000  14.3%     -    0s
+     0     0    8.00000    0   12    7.00000    8.00000  14.3%     -    0s
+     0     2    8.00000    0    6    7.00000    8.00000  14.3%     -    0s
+
+Cutting planes:
+  Gomory: 2
+  Cover: 9
+  Implied bound: 5
+  Clique: 2
+  MIR: 1
+  GUB cover: 1
+  Zero half: 2
+  RLT: 8
+  Relax-and-lift: 1
+  PSD: 1
+
+Explored 10 nodes (2127 simplex iterations) in 0.44 seconds (0.07 work units)
+Thread count was 2 (of 2 available processors)
+
+Solution count 1: 7 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 7.000000000000e+00, best bound 7.000000000000e+00, gap 0.0000%
+Objective value =  7.0
+vik[1,2]: 1
+vik[1,4]: 1
+vik[2,3]: 1
+vik[3,3]: 1
+vik[4,2]: 1
+vik[5,1]: 1
+vik[5,4]: 1
+wik[1,1]: 1
+wik[1,2]: 1
+wik[1,4]: 1
+wik[2,2]: 1
+wik[2,3]: 1
+wik[3,3]: 1
+wik[3,4]: 1
+wik[4,2]: 1
+wik[4,3]: 1
+wik[5,1]: 1
+wik[5,4]: 1
+xijk[0,4,2]: 1
+xijk[0,4,3]: 1
+xijk[0,5,1]: 1
+xijk[0,5,4]: 1
+xijk[1,0,1]: 1
+xijk[1,0,2]: 1
+xijk[1,0,4]: 1
+xijk[2,0,3]: 1
+xijk[2,1,2]: 1
+xijk[3,1,4]: 1
+xijk[3,2,3]: 1
+xijk[4,2,2]: 1
+xijk[4,3,3]: 1
+xijk[5,1,1]: 1
+xijk[5,3,4]: 1
+ypk[1,1]: 1
+ypk[2,2]: 1
+ypk[3,4]: 1
+ypk[4,4]: 1
+ypk[5,3]: 1
+ypk[6,3]: 1
+zik[1,1]: 1
+zik[1,2]: 2
+zik[1,4]: 2
+zik[2,2]: 1
+zik[2,3]: 4
+zik[3,1]: 1
+zik[3,3]: 3
+zik[3,4]: 1
+zik[5,2]: 4
+Computational time (CPU time) =  0.4694204330444336 seconds
+-----------------------------------------------------
